@@ -4,7 +4,7 @@ ControlPath ~/.ssh/socket-%r@%h:%p
 StreamLocalBindUnlink yes
 
 Host klone-login
-        User deanlcs
+        User bbioren
         Hostname klone.hyak.uw.edu
         ServerAliveInterval 30
         ServerAliveCountMax 1200
@@ -14,7 +14,7 @@ Host klone-node
     Include klone-node-config
 
 Host tillicum-login
-        User deanlcs
+        User bbioren
         Hostname tillicum.hyak.uw.edu
         ServerAliveInterval 30
         ServerAliveCountMax 1200
@@ -23,7 +23,7 @@ Host tillicum-node
         Include tillicum-node-config
 
 Host moana
-        User deanlcs
+        User bbioren
         Hostname moana.cs.washington.edu
         ServerAliveInterval 30
         ServerAliveCountMax 1200

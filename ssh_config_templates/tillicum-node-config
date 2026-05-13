@@ -1,4 +1,4 @@
 Host tillicum-node
-  User deanlcs
+  User bbioren
   Hostname g3098               
   ProxyJump tillicum-login
