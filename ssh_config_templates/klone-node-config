@@ -1,4 +1,4 @@
 Host klone-node
   User bbioren
-  Hostname g3098               
+  Hostname g3067               
   ProxyJump klone-login
